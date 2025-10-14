@@ -14,3 +14,29 @@ L’objectif du TP est de comprendre et d’implémenter les mécanismes d’**i
 
 ##  Structure du projet
 
+
+---
+
+##  Technologies utilisées
+
+- **Java 17+**  
+- **Spring Framework (Core / Context)**  
+- **Maven** ou **Gradle** (selon la configuration du projet)  
+- **IntelliJ IDEA** ou tout autre IDE Java compatible
+
+---
+
+##  Principes mis en œuvre
+
+- Injection de dépendances par **annotations** :
+  - `@Component`
+  - `@Autowired`
+  - `@Configuration`
+  - `@ComponentScan`
+- Utilisation du **contexte Spring** avec :
+  ```java
+  AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+  context.register(Presentation2.class);
+  context.refresh();
+
+
