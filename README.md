@@ -1,6 +1,6 @@
-# 🧩 TP2 – Architecture à Trois Couches avec Spring
+#  TP2 – Architecture à Trois Couches avec Spring
 
-## 📖 Description du projet
+##  Description du projet
 
 Ce projet illustre une **architecture en couches** basée sur le framework **Spring**, composée de trois parties principales :
 
@@ -12,4 +12,5 @@ L’objectif du TP est de comprendre et d’implémenter les mécanismes d’**i
 
 ---
 
-## 🏗️ Structure du projet
+##  Structure du projet
+
