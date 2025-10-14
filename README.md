@@ -13,19 +13,19 @@ L’objectif du TP est de comprendre et d’implémenter les mécanismes d’**i
 ---
 
 ##  Structure du projet
-src/
+**src/
 └── main/
 └── java/
 └── org/
 └── example/
-├── dao/
+***├── dao/
 │ ├── IDao.java
 │ ├── DaoImpl.java
 │ └── DaoImpl2.java
-├── metier/
+***├── metier/
 │ ├── IMetier.java
 │ └── MetierImpl.java
-└── presentation/
+***└── presentation/
 ├── Presentation1.java
 ├── Presentation2.java
 └── PresentationXML.java
